@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" src="" alt="Логотип неофициального сайта города Седона">
+          <img class="page-header-logo" src="images/main-logo.svg" width="140" height="70.05" alt="Логотип неофициального сайта города Седона.">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -43,10 +43,10 @@
       </nav>
     </header>
 
-    <main>
-      <section class="hero-section">
+    <main class="page-main" data-test="main">
+      <section class="hero-section" data-test="hero">
         <h1 class="visually-hidden">Седона. Город в Аризоне</h1>
-        <img src="" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
+        <img src="images/welcome-text.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!.">
       </section>
 
       <section class="advantages">
@@ -65,7 +65,7 @@
             <p class="advantages-decription-addition">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
-            <img class="advantages-image" src="" alt="Красивый отель 'Open Range' на фоне гор в Седоне">
+            <img class="advantages-image" src="images/advantages-hotel.jpg" min-width="800" height="385" alt="Красивый отель 'Open Range' на фоне гор в Седоне.">
           </li>
           <li class="advantages-item">
             <p class="advantages-decription">
@@ -92,7 +92,7 @@
             </p>
           </li>
           <li class="advantages-item">
-            <img class="advantages-image" src="" alt="Мост Дьявола - одна из крупнейших природных арок из песчаника в Аризоне.">
+            <img class="advantages-image" src="images/advantages-devils-bridge.jpg" min-width="800" height="385" alt="Мост Дьявола - одна из крупнейших природных арок из песчаника в Аризоне.">
             <p class="advantages-decription">
               Там есть<br>мост дьявола
             </p>
@@ -201,7 +201,7 @@
       <section class="developer">
         <h2 class="visually-hidden">Разработчик</h2>
           <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss">
-            <img src="" alt="Логотип разработчика сайта 'Html Academy'">
+            <span class="visually-hidden">Логотип разработчика сайта "Html Academy"</span>
           </a>
       </section>
     </footer>

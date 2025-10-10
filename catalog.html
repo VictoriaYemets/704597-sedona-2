@@ -6,10 +6,10 @@
   </head>
   <body>
 
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" src="" alt="Логотип неофициального сайта города Седона">
+          <img class="page-header-logo" src="images/main-logo.svg" width="140" height="70.05" alt="Логотип неофициального сайта города Седона.">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -44,7 +44,7 @@
     </header>
 
     <main class="main-inner">
-      <header class="inner-header">
+      <header class="inner-header" data-test="header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -148,17 +148,17 @@
         </form>
         <ul class="output-view">
           <li class="output-view-item">
-            <a class="output-view-link output-view-active" href="hotels.html?view=card">
+            <a class="output-view-link output-view-active" href="catalog.html?view=card">
               <p class="visually-hidden">Вывести найденные отели плитками</p>
             </a>
           </li>
           <li class="output-view-item">
-            <a class="output-view-link" href="hotels.html?view=title">
+            <a class="output-view-link" href="catalog.html?view=title">
               <p class="visually-hidden">Вывести найденные отели карточками</p>
             </a>
           </li>
           <li class="output-view-item">
-            <a class="output-view-link" href="hotels.html?view=list">
+            <a class="output-view-link" href="catalog.html?view=list">
               <p class="visually-hidden">Вывести найденные отели списком</p>
             </a>
           </li>
@@ -170,7 +170,7 @@
         <ul class="catalog-list">
           <li class="catalog-item">
             <a class="catalog-item-link" href="#">
-              <img class="catalog-item-img" src="">
+              <img class="catalog-item-img" src="images/hotel-1.jpg" width="300" height="212" alt="Пещера, находящаяся рядом с отелем Amara Resort & Spa.">
               <h3 class="catalog-item-name">Amara Resort & Spa</h3>
             </a>
             <p class="catalog-item-type">Гостиница</p>
@@ -196,7 +196,7 @@
           </li>
           <li class="catalog-item">
             <a class="catalog-item-link" href="#">
-              <img class="catalog-item-img" src="">
+              <img class="catalog-item-img" src="images/hotel-1.jpg" width="300" height="212" alt="Горы, находящиеся рядом с отелем Villas at Poco Diablo.">
               <h3 class="catalog-item-name">Villas at Poco Diablo</h3>
             </a>
             <p class="catalog-item-type">Гостиница</p>
@@ -222,7 +222,7 @@
           </li>
           <li class="catalog-item">
             <a class="catalog-item-link" href="#">
-              <img class="catalog-item-img" src="">
+              <img class="catalog-item-img" src="images/hotel-3.jpg" width="300" height="212" alt="Горы, находящиеся рядом с отелем Desert Quail Inn.">
               <h3 class="catalog-item-name">Desert Quail Inn</h3>
             </a>
             <p class="catalog-item-type">Гостиница</p>
@@ -248,8 +248,8 @@
           </li>
           <li class="catalog-item">
             <a class="catalog-item-link" href="#">
-              <img class="catalog-item-img" src="">
-              <h3 class="catalog-item-name">Desert Quail Inn</h3>
+              <img class="catalog-item-img" src="images/hotel-4.jpg" width="300" height="212" alt="Горы, находящиеся рядом с отелем GreenTree Inn.">
+              <h3 class="catalog-item-name">GreenTree Inn</h3>
             </a>
             <p class="catalog-item-type">Гостиница</p>
             <p class="catalog-item-price">От
@@ -342,7 +342,7 @@
       <section class="developer">
         <h2 class="visually-hidden">Разработчик</h2>
           <a class="developer-link" href="https://htmlacademy.ru/intensive/htmlcss">
-            <img src="" alt="Логотип разработчика сайта 'Html Academy'">
+            <span class="visually-hidden">Логотип разработчика сайта "Html Academy"</span>
           </a>
       </section>
     </footer>
