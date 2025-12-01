@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Виктория Емец](https://up.htmlacademy.ru/htmlcss-individual/2/user/704597).
-* Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
+* Наставник: [Александр Козюков](https://htmlacademy.ru/profile/id1119885).
 * Проект: [Седона](https://victoriayemets.github.io/704597-sedona-2/).
 ---
 
